@@ -1,0 +1,58 @@
+Oracle Test Result (agent=oracle)
+===================================
+Date: February 13, 2026
+
+Command: uv run harbor run --agent oracle --path harbor_tasks/json-product-summary --job-name final-oracle
+
+        oracle on adhoc         
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ Metric              ┃ Value  ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ Agent               │ oracle │
+│ Dataset             │ adhoc  │
+│ Trials              │ 1      │
+│ Errors              │ 0      │
+│                     │        │
+│ Mean                │ 1.000  │
+│                     │        │
+│ Reward Distribution │        │
+│   reward = 1.0      │ 1      │
+└─────────────────────┴────────┘
+
+All 13 tests passed:
+  PASSED test_output_file_exists
+  PASSED test_output_is_valid_json
+  PASSED test_output_has_count
+  PASSED test_output_has_products
+  PASSED test_out_of_stock_products_excluded
+  PASSED test_products_sorted_by_price_descending
+  PASSED test_products_have_correct_fields
+  PASSED test_first_product_is_most_expensive
+  PASSED test_last_product_is_cheapest
+  PASSED test_total_value
+  PASSED test_categories_breakdown
+  PASSED test_output_has_trailing_newline
+  PASSED test_output_uses_two_space_indent
+
+
+NOP Test Result (agent=nop)
+===================================
+Command: uv run harbor run --agent nop --path harbor_tasks/json-product-summary --job-name final-nop
+
+         nop on adhoc          
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Metric              ┃ Value ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ Agent               │ nop   │
+│ Dataset             │ adhoc │
+│ Trials              │ 1     │
+│ Errors              │ 0     │
+│                     │       │
+│ Mean                │ 0.000 │
+│                     │       │
+│ Reward Distribution │       │
+│   reward = 0.0      │ 1     │
+└─────────────────────┴───────┘
+
+
+Ruff Lint: All checks passed!
