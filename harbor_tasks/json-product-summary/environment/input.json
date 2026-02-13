@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 29.99,
+    "in_stock": true,
+    "quantity": 150
+  },
+  {
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 49.99,
+    "in_stock": false,
+    "quantity": 0
+  },
+  {
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 399.99,
+    "in_stock": true,
+    "quantity": 25
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 89.99,
+    "in_stock": true,
+    "quantity": 75
+  },
+  {
+    "name": "Desk Lamp",
+    "category": "Furniture",
+    "price": 34.99,
+    "in_stock": true,
+    "quantity": 200
+  },
+  {
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 59.99,
+    "in_stock": false,
+    "quantity": 0
+  },
+  {
+    "name": "Monitor Arm",
+    "category": "Furniture",
+    "price": 79.99,
+    "in_stock": true,
+    "quantity": 60
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 199.99,
+    "in_stock": true,
+    "quantity": 40
+  }
+]
